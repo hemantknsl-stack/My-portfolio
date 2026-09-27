@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bhai Ki Profile | Links</title>
+    
+    <style>
+      body {
+        background: linear-gradient(135deg, #0f172a, #1e1b4b); /* Stylish Gradient Background */
+        color: #ffffff;
+        font-family: sans-serif;
+        text-align: center;
+        padding: 20px;
+        min-height: 100vh;
+      }
+
+      /* Profile Header */
+      .profile-img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%; /* Circle shape photo */
+        border: 3px solid #818cf8;
+        box-shadow: 0 0 15px #818cf8;
+      }
+
+      h2 {
+        margin-top: 10px;
+        color: #38bdf8;
+      }
+
+      .bio {
+        color: #cbd5e1;
+        font-size: 14px;
+        margin-bottom: 25px;
+      }
+
+      /* Link Cards / Buttons */
+      .link-btn {
+        display: block;
+        background-color: #1e293b;
+        color: #ffffff;
+        text-decoration: none;
+        padding: 14px 20px;
+        margin: 12px auto;
+        max-width: 300px;
+        border-radius: 12px;
+        border: 1px solid #334155;
+        font-weight: bold;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+      }
+
+      /* Touch / Hover Animation */
+      .link-btn:active, .link-btn:hover {
+        background-color: #6366f1; /* Purple Glow on Touch */
+        transform: translateY(-3px); /* Button thoda upar uthega */
+        box-shadow: 0 0 15px #6366f1;
+      }
+
+      /* Special YouTube Color */
+      .yt-btn:active, .yt-btn:hover {
+        background-color: #ef4444;
+        box-shadow: 0 0 15px #ef4444;
+      }
+    </style>
+  </head>
+  <body>
+
+    <!-- Profile Picture & Details -->
+    <img src="https://picsum.photos/100/100" class="profile-img" alt="Profile">
+    <h2>Bhai Developer 😎</h2>
+    <p class="bio">Class 10th HBSE | Future Web Dev | Gamer 🎮</p>
+
+    <!-- Social Links -->
+    <a href="https://youtube.com" target="_blank" class="link-btn yt-btn">
+      📺 Mera YouTube Channel
+    </a>
+
+    <a href="https://instagram.com" target="_blank" class="link-btn">
+      📸 Instagram Profile
+    </a>
+
+    <a href="javascript:void(0)" onclick="alert('BGMI ID: 5123456789')" class="link-btn">
+      🎮 BGMI Character ID
+    </a>
+
+    <a href="https://github.com" target="_blank" class="link-btn">
+      💻 Github Projects
+    </a>
+
+  </body>
+</html>
